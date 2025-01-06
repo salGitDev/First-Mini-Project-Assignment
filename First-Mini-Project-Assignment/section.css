@@ -1,0 +1,89 @@
+/*.section-info-text {
+    padding: 20px;
+}*/
+
+.faq-text{
+    background: rgba(255, 255, 255, 0.8);
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.h1-text{
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 25px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+    
+    
+}
+
+.h2-text{
+    color: #fff;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    margin-top: 15px;
+    margin-left: 15px;
+    background-color: rgba(138, 43, 226, 0.6);
+    display: inline-block;
+    padding: 8px;
+    border-radius: 2px;
+    
+}
+
+
+#h1-text{
+    font-family: Arial;
+}
+.image-text{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.image-item{
+    width: 22%;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+
+.btn1-text{
+    background: #fff;
+    color: blue;
+    border: none;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.btn1-text:hover, .btn1-text:visited{
+    background: gray;
+}
+
+.hr-1::before{
+    content: "";
+    width: 100%;
+    height: 10px;
+    background-color: white;
+}
+
+@media (max-width: 850px){
+    .image-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: rgba(138, 43, 226, 0.2);
+        padding-top: 20px;
+        
+    }
+
+    .image-item{
+        width: 75%;
+        border-radius: 5px;
+        margin-bottom: 25px;
+    }
+    
+}

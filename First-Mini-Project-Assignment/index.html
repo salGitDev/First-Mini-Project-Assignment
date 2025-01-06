@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="photos/link-icon.PNG" type="image/x-icon">
+    <!-- CDNs Dependencies Start Here -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.9.1/font/bootstrap-icons.min.css">
+    <!-- CDNs Dependencies End Here -->
+     <link rel="stylesheet" href="style.css">
+     <link rel="stylesheet" href="header.css">
+     <link rel="stylesheet" href="main.css">
+     <link rel="stylesheet" href="section.css">
+     <link rel="stylesheet" href="footer.css">
+    <title>Netflix Clone Mini Project Assignment</title>
+</head>
+<body>
+
+<header>
+    <!-- Netflix Logo Here -->
+    <div class="netflix-logo">
+        <p id="netflix-logo">netflix</p>
+    </div>
+     <!-- Option Select & Sign Up Btn Here -->
+      <div class="drop-down-btn">
+        <!-- Drop Down Menu -->
+        <div class="dropdown btn1">
+            <a class="btn btn-secondary dropdown-toggle btn-text-1" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+              English
+            </a>
+          
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+              <li><a class="dropdown-item btn-text-1" href="#">French Series</a></li>
+              <li><a class="dropdown-item btn-text-1" href="#">Arabic</a></li>
+              <li><a class="dropdown-item btn-text-1" href="#">Spanish</a></li>
+            </ul>
+        </div>
+        <!-- Btn Danger -->
+        <button type="button" class="btn btn-danger btn2 btn-text-1">Sign Up</button>
+      </div>
+    
+</header>
+
+<main class="container container-items">
+    <divn class="main-content">
+        <h1 id="h1-text">Unlimited movies, TV shows, and more</h1>
+        <small id="small-text">Starts at <span class="currency">SLE 71.05</span>, You can cancel this subscription at anytime</small>
+    </div>
+    <div class="input-group mb-3 input-submit-text">
+        <input type="text" class="form-control input-text" placeholder="email address" aria-label="Recipient's username" aria-describedby="basic-addon2">
+        <button class="btn btn-danger btn-text">Get Started</button>
+      </div>
+</main>
+<section class="container section-info-text">
+  <div class="netflix-text">
+    <h1 class="h1-text" id="h11-text">Watch Netflix Latest Released</h1>
+    <div class="image-text">
+      <img class="image-item" src="photos/img-1.PNG" alt="Movie one unable to display">
+      <img class="image-item" src="photos/img-2.PNG" alt="Movie two unable to display">
+      <img class="image-item" src="photos/img-3.PNG" alt="Movie three unable to display">
+      <img class="image-item" src="photos/img-4.PNG" alt="Movie four unable to display">
+    </div>
+  </div>
+              <!-- Div for collapsing items -->
+<h1 class="h2-text">
+                FAQ's
+</h1>
+  <div class="faq-text">
+    
+    <!-- Toggle Data Starts Here -->
+    <div class="info-text">
+      <p>
+        <a class="btn btn-primary btn1-text" data-bs-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">What is Netflix?</a>
+        <!-- <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button> -->
+      </p>
+      <hr>
+      <!-- Bootstrap5 Div Start Here -->
+          <div class="collapse multi-collapse" id="multiCollapseExample1">
+            <div class="card card-body collapse-text">
+                First mini project given by Edureka. The project used technologies like HTML5, CSS3, Bootstrap5.
+          </div>
+        </div>
+      </div>
+          <!-- Bootstrap5 Div End Here -->
+          <p>
+            <a class="btn btn-primary btn1-text" data-bs-toggle="collapse" href="#multiCollapseExample2" role="button" aria-expanded="false" aria-controls="multiCollapseExample2">What is Netflix?</a>
+          </p>
+           <!-- Bootstrap5 2nd Div Starts Here -->
+            
+          <div class="row">
+            <div class="col">
+              <div class="collapse multi-collapse" id="multiCollapseExample2">
+                <div class="card card-body collapse-text">
+                  I am a graduate with a Bachelor Degree in Electrical and Electronics 
+                  Engineering. I have worked in cutting edges IT Tech industries, Health 
+                  Sector, ranging from Network Technician, Network Administrator, Data
+                  Officer, etc. In those aspects, I was managing the up running of the network 
+                  devices, data query and manipulation, data cleaning and result presentations 
+                  for further decision making, etc.
+                  With these skills, I am physically, logically, and dynamically fit to work in 
+                  any institution or production environment.
+              </div>
+            </div>
+          </div>
+          <!-- Bootstrap5 2nd Div Ends Here -->
+    </div>
+    <!-- Toggle Data Ends Here -->
+  </div>
+</section>
+
+
+
+
+<footer class="bg-dark text-light py-4 mt-20">
+  <div class="container">
+      <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4">
+              <h5>About Us</h5>
+              <p>Edureka Provides Quality Education Acdross the Globe</p>
+          </div>
+          <hr class="footer-row">
+          <div class="col-lg-2 col-md-6 mb-4">
+              <h5>Navigation Links</h5>
+              <ul class="list-unstyled">
+                  <li><a href="#" class="text-light text-decoration-none">Home</a></li>
+                  <li><a href="#" class="text-light text-decoration-none">About</a></li>
+                  <li><a href="#" class="text-light text-decoration-none">Services</a></li>
+                  <li><a href="#" class="text-light text-decoration-none">Contact</a></li>
+              </ul>
+          </div>
+          <hr class="footer-row">
+          <div class="col-lg-3 col-md-6 mb-4">
+              <h5>Contact Us Through</h5>
+              <p><i class="bi bi-telephone"></i> +232 001 002</p>
+              <p><i class="bi bi-envelope"></i>email@example.com</p>
+          </div>
+          <hr class="footer-row">
+          <div class="col-lg-3 col-md-6 mb-4">
+              <h5>Follow Us on Major Social Medium</h5>
+              <a href="#" class="text-light text-decoration-none me-3"><i class="bi bi-facebook"></i></a>
+              <a href="#" class="text-light text-decoration-none me-3"><i class="bi bi-twitter"></i></a>
+              <a href="#" class="text-light text-decoration-none"><i class="bi bi-instagram"></i></a>
+          </div>
+      </div>
+      <hr class="footer-row">
+      <div class="text-center mt-4">
+          <p class="mb-0"><span id = "edureka-text"><a href="#">&copy; 2025 Edureka</span> All Rights Reserved.</a></p>
+      </div>
+  </div>
+</footer>
+
+    <!-- CDNs Dependencies End Here -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- CDNs Dependencies End Here -->
+</body>
+</html>

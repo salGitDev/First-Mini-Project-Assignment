@@ -1,0 +1,14 @@
+.mt-20{
+    margin-top: 20px;
+    background-color: gray !important;
+}
+.footer-row{
+    display: none;
+   
+}
+
+@media (max-width: 450px){
+    .footer-row{
+        display: block;
+    }
+}
